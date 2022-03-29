@@ -1,0 +1,36 @@
+{
+  "name": "alhames/phphelper-datetime",
+  "type": "library",
+  "description": "PHP Helpers for DateTime",
+  "homepage": "https://github.com/alhames/phphelper-datetime",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Pavel Logachev",
+      "email": "alhames@mail.ru",
+      "homepage": "https://alhames.ru/"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "support": {
+    "issues": "https://github.com/alhames/phphelper-datetime/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpHelper\\": ""
+    },
+    "files": ["functions.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpHelper\\Tests\\": "tests/"
+    }
+  }
+}
